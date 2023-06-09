@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.li-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  flex-wrap: wrap;
+
+  list-style-type: none;
+}
+.button {
+  background-color: #585076;
+  height: 35px;
+  width: 110px;
+  cursor: pointer;
+
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: #d4d2db;
+  font-size: 26px;
+  color: #d4d2db;
+}

@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.app-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.atm-con {
+  background-color: #150b3e;
+  border-radius: 20px;
+  padding: 30px;
+  width: 30%;
+}
+.profile-con {
+  display: flex;
+  align-items: center;
+}
+.head {
+  background-color: #c7d2fe;
+  display: flex;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.letter {
+  font-family: 'Roboto';
+  color: #7c3aed;
+}
+.name {
+  font-family: 'Roboto';
+  color: #d4d2db;
+  font-size: 25px;
+  margin-left: 15px;
+}
+.bal-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.your-bal {
+  font-family: 'Roboto';
+  color: #585076;
+  font-size: 20px;
+}
+.digi {
+  color: #d4d2db;
+  font-size: 25px;
+  font-weight: bold;
+}
+.in-Rs {
+  color: #585076;
+  font-weight: bold;
+}
+.withdraw {
+  color: #d4d2db;
+  font-family: 'roboto';
+  font-size: 25px;
+  font-weight: bold;
+}
+.choose {
+  color: #585076;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.li-items {
+  display: flex;
+  flex-wrap: wrap;
+}
